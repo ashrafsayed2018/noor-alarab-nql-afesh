@@ -2,7 +2,7 @@ import React from 'react'
 
 const Videos = () => {
   const VideosList = [
-    'videos/4.mp4',
+    'videos/1.mp4',
     'videos/1.mp4',
     'videos/2.mp4',
     'videos/3.mp4',
