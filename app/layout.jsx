@@ -16,11 +16,11 @@ const openSans = Open_Sans({ subsets: ['latin'] })
 export const metadata = {
   title: SiteInfo.title,
   description: SiteInfo.description,
-  icons: {
-    icon: '/icon.ico',
-  },
   other: {
     'google-site-verification': 'mpwTDJQGsPOKqab82sdxwE1PFkZ8HnycFrK2-dQBLvs',
+  },
+  icons: {
+    icon: '/icon.ico',
   },
 }
 
