@@ -1,25 +1,28 @@
-import { Open_Sans } from "next/font/google";
-import "./globals.css";
-import Navbar from "../components/Navbar";
-import MenuDropDown from "../components/dropdowns/MenuDropDown";
-import { AppProvider } from "../context";
-import MapDropDown from "../components/dropdowns/MapDropDown";
-import ShareDropDown from "../components/dropdowns/ShareDropDown";
-import ContactDropDown from "../components/dropdowns/ContactDropDown";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import Footer from "../components/Footer";
-import FixedCall from "../components/FixedCall";
-import FixedMobileCall from "../components/FixedMobileCall";
-import { SiteInfo } from "./data";
-const openSans = Open_Sans({ subsets: ["latin"] });
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import { Open_Sans } from 'next/font/google'
+import FixedCall from '../components/FixedCall'
+import FixedMobileCall from '../components/FixedMobileCall'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import ContactDropDown from '../components/dropdowns/ContactDropDown'
+import MapDropDown from '../components/dropdowns/MapDropDown'
+import MenuDropDown from '../components/dropdowns/MenuDropDown'
+import ShareDropDown from '../components/dropdowns/ShareDropDown'
+import { AppProvider } from '../context'
+import { SiteInfo } from './data'
+import './globals.css'
+const openSans = Open_Sans({ subsets: ['latin'] })
 
 export const metadata = {
   title: SiteInfo.title,
   description: SiteInfo.description,
   icons: {
-    icon: "/icon.ico",
+    icon: '/icon.ico',
   },
-};
+  other: {
+    'google-site-verification': 'mpwTDJQGsPOKqab82sdxwE1PFkZ8HnycFrK2-dQBLvs',
+  },
+}
 
 export default function RootLayout({ children }) {
   return (
@@ -38,5 +41,5 @@ export default function RootLayout({ children }) {
         </AppProvider>
       </body>
     </html>
-  );
+  )
 }
