@@ -5,7 +5,6 @@ import { SiteInfo } from '../app/data'
 
 function Card({ item, imageStyle, isService = false }) {
   const router = useRouter()
-  console.log(router)
   return (
     <div className="flex flex-col items-center themeBgColor hoverBgColor hover:bg-white shadow-lg hover:shadow-xl rounded-xl transition-all duration-500 pb-4 overflow-hidden text-white group cursor-pointer hover:transform hover:translate-y-3 group">
       <Image

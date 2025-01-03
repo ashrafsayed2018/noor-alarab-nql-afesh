@@ -5,7 +5,6 @@ const page = ({ params }) => {
   const blogId = params.blogId
   // Find the blog post by ID
   const blogPost = BlogList.find((blog) => {
-    console.log(blog.id == blogId)
     return blog.id == blogId
   })
 
