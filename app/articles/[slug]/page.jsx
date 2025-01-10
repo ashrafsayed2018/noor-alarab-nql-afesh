@@ -35,6 +35,6 @@ export default async function ArticlePage({ params }) {
     )
   } catch (error) {
     console.error('Error loading article:', error)
-    return <div>Article could not be loaded.</div> // Error handling if articles.js fails to load
+    return <div>Article could not be loaded here.</div> // Error handling if articles.js fails to load
   }
 }
