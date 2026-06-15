@@ -1,3 +1,4 @@
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import {
   faFacebookF,
   faInstagram,
@@ -5,7 +6,6 @@ import {
   faTiktok,
   faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
-import '@fortawesome/fontawesome-svg-core/styles.css'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export const NavLinks = [
@@ -37,13 +37,13 @@ export const NavLinks = [
 ]
 
 export const SiteInfo = {
-  title: ' شركه مملكه نور العرب لنقل العفش بجدة مع الفك والتركيب والتغليف',
+  title: ' شركة النخبة لنقل العفش بجدة مع الفك والتركيب والتغليف',
   description: 'ديانه نقل عفش وانيت نقل اثاث بجميع مناطق جدة',
   fullDescription:
     'حن نقدم أفضل خدمة نقل العفش في جدة. تتميز شركتنا بالمهنية والخبرة في مجال نقل العفش، حيث نوفر فريق عمل مدرب ومؤهل للقيام بهذه المهمة بكفاءة عالية. نحرص على حماية العفش وضمان سلامته أثناء عملية النقل، حيث نستخدم التغليف المناسب والأدوات المناسبة لتجنب أي تلفيات أو خدوش',
   heroImage: '/images/hero.webp',
-  mobileNumber: '00966542315817',
-  whatsappNumber: '966542315817',
+  mobileNumber: '00966567322137',
+  whatsappNumber: '966567322137',
 }
 
 export const ServicesList = [
@@ -62,7 +62,7 @@ export const ServicesList = [
     title: 'فك وتركيب وتغليف الاثاث',
     image: '/images/2.jpeg',
     description:
-      'عملية فك و تركيب الأثاث لدى شركه مملكة نور العرب  بالاعتماد على فنيين و عمال  لفك و تركيب الأثاث يعمل كل منهم في أكثر من مجال النجاره , فني تكييفات , كهربائي',
+      'عملية فك و تركيب الأثاث لدى شركة النخبة لنقل العفش بالاعتماد على فنيين و عمال  لفك و تركيب الأثاث يعمل كل منهم في أكثر من مجال النجاره , فني تكييفات , كهربائي',
   },
   {
     id: 3,
@@ -70,7 +70,7 @@ export const ServicesList = [
     title: 'تخزين الاثاث',
     image: '/images/3.jpeg',
     description:
-      'تمتلك شركة مملكة نور العرب  العديد من الإمكانيات لتخزين العفش في المخازن المجهزة بأحدث الإمكانيات من أجل الحفاظ على العفش من الغبار والرطوبة التي تتعرض لها عند نزول الأمطار.',
+      'تمتلك شركة النخبة لنقل العفش العديد من الإمكانيات لتخزين العفش في المخازن المجهزة بأحدث الإمكانيات من أجل الحفاظ على العفش من الغبار والرطوبة التي تتعرض لها عند نزول الأمطار.',
   },
 ]
 
